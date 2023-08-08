@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Batman Underneath</title>
+  </head>
+  <body>
+    <header class="header vh-100 text-center position-relative">
+      <div
+        class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100"
+      >
+        <h5 class="text-primary fs-3 fw-bold text-uppercase">Hello World</h5>
+        <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
+        <p class="roles text-white text-uppercase fs-4">
+          <span>Full stack web developer |</span>
+          <span>App developer |</span>
+          <span>Untried batman</span>
+        </p>
+
+        <a href="#about" class="btn btn-outline-light btn-lg mt-3">
+          <div class="d-flex">
+            <div class="me-3">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="text-start">
+              <span>More About Me</span>
+            </div>
+          </div>
+        </a>
+
+        <div class="social d-flex gap-3 positoin-absolute mt-4">
+          <a href="#">
+            <i class="fab fa-linkedin fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-github fa-3x text-white"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram fa-3x text-white"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h4 class="text-uppercase fw-bold text-primary">About Me</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Let me introduce myself.</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="cover rounded-5" width="242px" height="363px""
+            id="myimg" src="images/WhatsApp Image 2023-04-18 at 21.42.59.jpg"
+            alt="" />
+          </div>
+          <div class="col-md-8">
+            <p class="ms-md-4 mt-6 lead text-center lh-lg">
+              Hi, I'm Uttkarsh Srivastava, a full-stack web dev by day and
+              schizophrenic Batman by night. I'm not sure which one is more of a
+              delusion, but I'm not complaining. I get to build cool stuff and
+              fight crime, all in the same day. What's not to love?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile and Skills -->
+
+    <section class="profile mt-5 mb-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">profile</h3>
+            <p>
+              Here is some info about myself to help you get to know me better.
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-user text-primary"></i> Full name:
+                </h5>
+                <p>Uttkarsh Srivastava</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-calendar text-primary"></i> Birth Date:
+                </h5>
+                <p>12th July 2004</p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-graduation-cap text-primary"></i> College and
+                  Course:
+                </h5>
+                <p>
+                  VIT Vellore
+                  <span class="badge badge-primary badge-pill bg-danger ms-4"
+                    >2nd Year</span
+                  >
+                  <br />
+                  Computer Science
+                </p>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-solid fa-briefcase text-primary"></i> Domain:
+                </h5>
+                <ul class="list-group-flush">
+                  <li class="things">Fullstack Web Developer</li>
+                  <li>App Developer</li>
+                  <li>DSA Enthusiast</li>
+                </ul>
+              </li>
+              <li class="list-group-item mb-3">
+                <h5 class="text-transform">
+                  <i class="fas fa-envelope text-primary"></i> Email address:
+                </h5>
+                <p>uttkarsh.srivastava12@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-uppercase fw-bold">Skills</h3>
+            <p>
+              Here is a list of my skills with these dumb percentages that mean
+              something but nothing ¯\_(ツ)_/¯
+            </p>
+            <div class="vstack gap-2">
+              <h5><i class="fas fa-check"></i> HTML 5</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="100"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 100%">100%</div>
+              </div>
+              <h5><i class="fas fa-check"></i> CSS</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+              <h5><i class="fas fa-check"></i> DSA</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="50"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 50%">50%</div>
+              </div>
+              <h5><i class="fas fa-check"></i> Bootstrap</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="85"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 85%">85%</div>
+              </div>
+              <h5><i class="fas fa-check"></i> Kotlin</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="60"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 60%">60%</div>
+              </div>
+              <h5><i class="fas fa-check"></i> C++</h5>
+              <div
+                class="progress mb-4"
+                role="progressbar"
+                aria-valuenow="70"
+                aria-valuemax="100"
+                aria-valuemin="0"
+              >
+                <div class="progress-bar" style="width: 70%">70%</div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3 text-center">
+            <div class="col-12">
+              <a
+                href="#"
+                class="btn btn-outline-dark btn-lg text-uppercase px-5 mx-3 my-2"
+                >Hire Me Now</a
+              >
+              <a
+                href="#"
+                class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
+                >Download CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio py-5 bg-light">
+      <div class="container">
+        <div class="text-container mb-5">
+          <h4 class="text-uppercase fw-bold text-primary text-center">
+            Portfolio
+          </h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">Check Out My Work</h2>
+          <p class="lead">Here is a small sample of my projects</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/Screenshot 2023-08-08 at 10-19-50 Price Tiers.png"
+                data-lightbox="images"
+                data-title="Responsive Pricing Tiers Design"
+              >
+                <img
+                  src="images/Screenshot 2023-08-08 at 10-19-50 Price Tiers.png"
+                  alt=""
+                  class="img-fluid rounded-3"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/Screenshot 2023-08-08 102513.png"
+                data-lightbox="images"
+                data-title="Blog Mastery Landing Page"
+              >
+                <img
+                  src="images/Screenshot 2023-08-08 102513.png"
+                  alt=""
+                  class="img-fluid rounded-3"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="project shadow-lg rounded-5">
+              <a
+                href="images/Screenshot 2023-08-08 at 10-32-15 Muesuesm Of Candy.png"
+                data-lightbox="images"
+                data-title="Muesuem Of Candy Landing Page"
+              >
+                <img
+                  src="images/Screenshot 2023-08-08 at 10-32-15 Muesuesm Of Candy.png"
+                  alt=""
+                  class="img-fluid rounded-3"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services text-bg-dark bg-gradient py-5 position-relative">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h4 class="text-uppercase fw-bold text-primary">Services</h4>
+          <hr class="w-25 mx-auto" />
+          <h2 class="mb-4">What Can I Do For You?</h2>
+          <p class="lead">
+            Here are some of the services I offer when it comes to work.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Web Design</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="lead fs-5">I do design and develop websites for fun.</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-computer fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">App Development</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="lead fs-5">
+              Can make small scale android apps with Kotlin.
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fa-solid fa-cloud fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Cloud</h3>
+            <hr class="w-25 mx-auto" />
+            <p class="lead fs-5">
+              Learnig AWS to build and deploy applications.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="contact text-bg-dark py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <div class="text-center mb-5">
+              <h4 class="text-uppercase fw-bold text-primary">Contact</h4>
+              <hr class="w-25 mx-auto" />
+              <h2 class="mb-4">I'd love to hear from you.</h2>
+              <p class="lead">
+                If you have any questions or would like to work together, please
+                fill the form below<br />
+                Or just light up the bat signal.
+              </p>
+            </div>
+            <form action="https://formspree.io/f/mjvqyvnw" method="post">
+              <div class="mb-5">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  placeholder="Email"
+                  type="email"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  placeholder="Message"
+                  type="text"
+                  class="form-control bg-transparent border-top-0 border-start-0 border-end-0 rounded-0 border-muted text-white"
+                />
+              </div>
+              <div class="mb-5 d-grid">
+                <button class="btn btn-primary" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
