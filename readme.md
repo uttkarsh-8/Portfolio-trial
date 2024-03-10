@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Hei connections, this is my personal portfolio!!
+Hi connections, this is my personal portfolio!!
 
 ## Features
 
